@@ -1,0 +1,72 @@
+/* ========================================
+   Rethink Software - About Page Styles
+   ======================================== */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 160px 20px 60px;
+    flex: 1;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: -2.5px;
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #000000 0%, #4a4a4a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p.intro {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.4rem;
+    color: #202124;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.content-block p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1rem;
+    color: #5f6368;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+/* ========================================
+   Responsive - Tablet
+   ======================================== */
+@media (max-width: 768px) {
+    .container {
+        padding: 120px 20px 40px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        letter-spacing: -1.5px;
+    }
+
+    p.intro {
+        font-size: 1.2rem;
+    }
+
+    .content-block p {
+        font-size: 1rem;
+    }
+}
+
+/* ========================================
+   Responsive - Mobile
+   ======================================== */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p.intro {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rethink Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/images/ico.svg">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+
+    <nav>
+        <img width="40px" src="assets/images/ico.svg" alt="Logo" class="nav-logo">
+        <div class="nav-links">
+            <a href="index.html">Início</a>
+            <a href="solutions.html">Soluções</a>
+            <a href="about.html">Sobre</a>
+            <a href="contact.html">Contato</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-links">
+            <a href="index.html">Início</a>
+            <a href="solutions.html">Soluções</a>
+            <a href="about.html">Sobre</a>
+            <a href="contact.html">Contato</a>
+        </div>
+    </div>
+
+    <!-- Hero Section with Particles -->
+    <div class="ambient-glow"></div>
+    <canvas id="canvas-particles"></canvas>
+
+    <div class="ui-overlay">
+        <h1>Rethink Software</h1>
+        <p class="subline">O simples por design</p>
+        <a href="https://wa.me/5569992418704?text=Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20Rethink%20Software"
+            class="cta-button">Começar agora</a>
+        <div class="scroll-indicator">
+            <span>↓</span>
+        </div>
+    </div>
+
+    <!-- Main Content Sections -->
+    <main class="sections-container">
+
+        <!-- Metrics Section -->
+        <section class="metrics-section">
+            <div class="section-header">
+                <span class="section-tag">Resultados Comprovados</span>
+                <h2>O Poder da Automação & IA</h2>
+                <p class="section-description">Nossos clientes alcançam resultados extraordinários com nossas soluções
+                    de automação e inteligência artificial.</p>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">⚡</div>
+                    <div class="metric-value">85%</div>
+                    <div class="metric-label">Redução de Tempo</div>
+                    <p class="metric-description">Em processos manuais repetitivos através da automação inteligente</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">📈</div>
+                    <div class="metric-value">3x</div>
+                    <div class="metric-label">Aumento de Produtividade</div>
+                    <p class="metric-description">Equipes conseguem entregar mais com menos esforço</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">💰</div>
+                    <div class="metric-value">40%</div>
+                    <div class="metric-label">Economia de Custos</div>
+                    <p class="metric-description">Redução média nos custos operacionais anuais</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">🎯</div>
+                    <div class="metric-value">99.9%</div>
+                    <div class="metric-label">Precisão com IA</div>
+                    <p class="metric-description">Taxa de acerto em decisões automatizadas por machine learning</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="section-header">
+                <span class="section-tag">Nossas Soluções</span>
+                <h2>Tecnologia que Transforma</h2>
+                <p class="section-description">Desenvolvemos soluções sob medida que impulsionam a transformação digital
+                    da sua empresa.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Automação de Processos</h3>
+                    <p>Eliminamos tarefas repetitivas com RPA e workflows inteligentes, liberando sua equipe para
+                        atividades estratégicas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Inteligência Artificial</h3>
+                    <p>Machine learning e deep learning aplicados ao seu negócio para previsões precisas e decisões
+                        data-driven.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Soluções em Nuvem</h3>
+                    <p>Infraestrutura escalável e segura na cloud, com disponibilidade 24/7 e backup automático.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Analytics Avançado</h3>
+                    <p>Dashboards interativos e relatórios em tempo real para uma visão completa do seu negócio.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3>Integrações</h3>
+                    <p>Conectamos seus sistemas existentes através de APIs modernas e integrações personalizadas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Segurança Digital</h3>
+                    <p>Proteção de dados com criptografia de ponta, compliance e monitoramento contínuo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="clients-section">
+            <div class="section-header">
+                <span class="section-tag">Confiança</span>
+                <h2>Empresas que Confiam em Nós</h2>
+                <p class="section-description">Orgulhamo-nos de atender empresas de diversos segmentos, ajudando-as a
+                    alcançar seus objetivos.</p>
+            </div>
+            <div class="clients-logos">
+                <div class="client-logo">
+                    <span class="client-placeholder">Empresa A</span>
+                </div>
+                <div class="client-logo">
+                    <span class="client-placeholder">Empresa B</span>
+                </div>
+                <div class="client-logo">
+                    <span class="client-placeholder">Empresa C</span>
+                </div>
+                <div class="client-logo">
+                    <span class="client-placeholder">Empresa D</span>
+                </div>
+                <div class="client-logo">
+                    <span class="client-placeholder">Empresa E</span>
+                </div>
+                <div class="client-logo">
+                    <span class="client-placeholder">Empresa F</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="section-header">
+                <span class="section-tag">Depoimentos</span>
+                <h2>O que Nossos Clientes Dizem</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"A automação implementada pela Rethink reduziu nosso tempo de
+                        processamento em 80%. Resultado fantástico!"</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <strong>Maria Silva</strong>
+                            <span>Diretora de Operações, TechCorp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"A solução de IA desenvolvida nos ajudou a prever demandas com
+                        precisão impressionante. Recomendo fortemente."</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <strong>Carlos Santos</strong>
+                            <span>CEO, DataFlow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"Equipe extremamente competente e comprometida. Entregaram além das
+                        expectativas em todos os projetos."</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div class="author-info">
+                            <strong>Ana Costa</strong>
+                            <span>CTO, InnovateTech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process-section">
+            <div class="section-header">
+                <span class="section-tag">Como Trabalhamos</span>
+                <h2>Nosso Processo</h2>
+                <p class="section-description">Uma abordagem estruturada para entregar resultados excepcionais.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <h3>Descoberta</h3>
+                    <p>Entendemos profundamente seus desafios, objetivos e processos atuais.</p>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <h3>Estratégia</h3>
+                    <p>Desenvolvemos um plano personalizado com tecnologias ideais para seu caso.</p>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <h3>Desenvolvimento</h3>
+                    <p>Construímos a solução com metodologias ágeis e entregas incrementais.</p>
+                </div>
+                <div class="process-connector"></div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <h3>Entrega & Suporte</h3>
+                    <p>Implantamos e oferecemos suporte contínuo para garantir o sucesso.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Pronto para Transformar seu Negócio?</h2>
+                <p>Vamos conversar sobre como podemos ajudar sua empresa a alcançar novos patamares com tecnologia.</p>
+                <a href="https://wa.me/5569992418704?text=Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20Rethink%20Software"
+                    class="cta-button-large">Fale Conosco</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <strong>Rethink Software</strong>
+                <p>Transformando negócios através da tecnologia.</p>
+            </div>
+            <div class="footer-links">
+                <a href="solutions.html">Soluções</a>
+                <a href="about.html">Sobre</a>
+                <a href="contact.html">Contato</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Rethink Software. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/menu.js"></script>
+</body>
+
+</html>
